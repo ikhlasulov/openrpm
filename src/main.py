@@ -10,9 +10,9 @@ from window import OpenRpmApp
 
 
 def main(version):
-    app = OpenRpmApp()
+    app = OpenRpmApp(version=version)
     return app.run(sys.argv)
 
 
 if __name__ == '__main__':
-    sys.exit(main('1.0.0'))
+    sys.exit(main('1.1.0'))

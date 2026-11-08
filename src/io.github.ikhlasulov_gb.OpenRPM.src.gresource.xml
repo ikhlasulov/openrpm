@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/site/ikhlasulov/openrpm/py">
+  <gresource prefix="/io/github/ikhlasulov_gb/OpenRPM/py">
     <file>__init__.py</file>
     <file>main.py</file>
     <file>window.py</file>

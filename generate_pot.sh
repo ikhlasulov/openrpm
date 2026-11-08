@@ -1,6 +1,6 @@
 #!/bin/bash
-OUTPUT="po/site.ikhlasulov.openrpm.pot"
-PACKAGE_NAME="site.ikhlasulov.openrpm"
+OUTPUT="po/io.github.ikhlasulov_gb.OpenRPM.pot"
+PACKAGE_NAME="io.github.ikhlasulov_gb.OpenRPM"
 ENCODING="UTF-8"
 LINGUAS_FILE="po/LINGUAS"
 

@@ -11,23 +11,23 @@ msgstr ""
 msgid "Open RPM"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.desktop.in:3
+#: data/io.github.ikhlasulov_gb.OpenRPM.desktop.in:3
 msgid "Open RPM"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.desktop.in:9
+#: data/io.github.ikhlasulov_gb.OpenRPM.desktop.in:9
 msgid "Raven;Test;IQ;Intelligence;Matrices;Psychology;"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:17
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:17
 msgid "Open RPM"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:18
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:18
 msgid "Raven's Progressive Matrices IQ Test"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:20
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:20
 msgid ""
 "Open RPM is a modern implementation of Raven's Progressive Matrices (RPM) - "
 "a standardized non-verbal intelligence test. This application provides a "
@@ -35,67 +35,67 @@ msgid ""
 "results analysis."
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:24
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:24
 msgid "Features:"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:26
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:26
 msgid "60 progressive matrix questions across 5 series (A-E)"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:27
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:27
 msgid "20-minute timed test with progress tracking"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:28
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:28
 msgid "Age-adjusted IQ calculation using spline interpolation"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:29
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:29
 msgid "Detailed diagnosis and recommendations"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:30
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:30
 msgid "Series-by-series analysis with deviation tracking"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:31
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:31
 msgid "Multi-language support (English, Russian, Indonesian)"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:32
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:32
 msgid "Modern GNOME interface with GTK4 and Libadwaita"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:40
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:40
 msgid "Open RPM intro screen"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:46
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:46
 msgid "Open RPM test screen"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:52
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:52
 msgid "Open RPM results screen"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:68
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:68
 msgid "Initial release with GNOME standards compliance"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:69
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:69
 msgid "Flatpak support"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:70
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:70
 msgid "60-question Raven's Progressive Matrices test"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:71
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:71
 msgid "Age-adjusted IQ calculation"
 msgstr ""
 
-#: data/site.ikhlasulov.openrpm.metainfo.xml.in:72
+#: data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in:72
 msgid "Multi-language support"
 msgstr ""
 

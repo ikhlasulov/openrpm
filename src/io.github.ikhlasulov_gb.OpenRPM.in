@@ -11,16 +11,16 @@ gi.require_version('Adw', '1')
 from gi.repository import Gio, GLib
 
 # Setup resource paths
-resource = Gio.Resource.load('@datadir@/openrpm/site.ikhlasulov.openrpm.data.gresource')
+resource = Gio.Resource.load('@datadir@/openrpm/io.github.ikhlasulov_gb.OpenRPM.data.gresource')
 resource._register()
 
-src_resource = Gio.Resource.load('@datadir@/openrpm/site.ikhlasulov.openrpm.src.gresource')
+src_resource = Gio.Resource.load('@datadir@/openrpm/io.github.ikhlasulov_gb.OpenRPM.src.gresource')
 src_resource._register()
 
 # Custom import hook for GResource
 class GResourceImporter:
     
-    RESOURCE_PREFIX = '/site/ikhlasulov/openrpm/py'
+    RESOURCE_PREFIX = '/io/github/ikhlasulov_gb/OpenRPM/py'
     
     @classmethod
     def find_spec(cls, fullname, path, target=None):
@@ -77,4 +77,4 @@ sys.meta_path.insert(0, GResourceImporter)
 # Import and run main
 from main import main
 
-sys.exit(main(sys.argv))
+sys.exit(main('@PACKAGE_VERSION@'))

@@ -43,7 +43,7 @@ def get_theme_dir():
 def load_texture(q, theme=None):
     if theme is None:
         theme = get_theme_dir()
-    path = f'/site/ikhlasulov/openrpm/images/{theme}/{q}{IMG_EXT}'
+    path = f'/io/github/ikhlasulov_gb/OpenRPM/images/{theme}/{q}{IMG_EXT}'
     try:
         data = Gio.resources_lookup_data(path, Gio.ResourceLookupFlags.NONE)
         if data:

@@ -2,8 +2,8 @@ pkgdatadir = join_paths(get_option('datadir'), meson.project_name())
 gnome = import('gnome')
 i18n = import('i18n')
 
-src_res = gnome.compile_resources('site.ikhlasulov.openrpm.src',
-  'site.ikhlasulov.openrpm.src.gresource.xml',
+src_res = gnome.compile_resources('io.github.ikhlasulov_gb.OpenRPM.src',
+  'io.github.ikhlasulov_gb.OpenRPM.src.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
@@ -16,11 +16,11 @@ bin_conf.set('PACKAGE_NAME', meson.project_name())
 bin_conf.set('prefix', get_option('prefix'))
 bin_conf.set('libdir', join_paths(get_option('prefix'), get_option('libdir')))
 bin_conf.set('datadir', join_paths(get_option('prefix'), get_option('datadir')))
-bin_conf.set('resource_path', '/site/ikhlasulov/openrpm')
+bin_conf.set('resource_path', '/io/github/ikhlasulov_gb/OpenRPM')
 
 configure_file(
-  input: 'site.ikhlasulov.openrpm.in',
-  output: 'site.ikhlasulov.openrpm',
+  input: 'io.github.ikhlasulov_gb.OpenRPM.in',
+  output: 'io.github.ikhlasulov_gb.OpenRPM',
   configuration: bin_conf,
   install: true,
   install_dir: get_option('bindir'),

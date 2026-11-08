@@ -1,0 +1,38 @@
+{
+  "app-id": "io.github.ikhlasulov_gb.OpenRPM",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "51",
+  "sdk": "org.gnome.Sdk",
+  "command": "io.github.ikhlasulov_gb.OpenRPM",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--socket=wayland",
+    "--device=dri"
+  ],
+  "cleanup": [
+    "/include",
+    "/lib/pkgconfig",
+    "/man",
+    "/share/doc",
+    "/share/gtk-doc",
+    "/share/man",
+    "/share/pkgconfig",
+    "*.la",
+    "*.a"
+  ],
+  "modules": [
+    {
+      "name": "openrpm",
+      "buildsystem": "meson",
+      "builddir": true,
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/ikhlasulov-gb/openrpm.git",
+          "tag": "v1.1.0"
+        }
+      ]
+    }
+  ]
+}

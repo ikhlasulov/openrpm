@@ -1,4 +1,4 @@
-application_id = 'site.ikhlasulov.openrpm'
+application_id = 'io.github.ikhlasulov_gb.OpenRPM'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

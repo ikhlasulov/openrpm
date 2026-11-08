@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="data/icons/hicolor/scalable/apps/site.ikhlasulov.openrpm.svg" alt="Favicon" width="128" height="128"/>
+  <img src="data/icons/hicolor/scalable/apps/io.github.ikhlasulov_gb.OpenRPM.svg" alt="Favicon" width="128" height="128"/>
 </p>
 
 # Open RPM
@@ -45,41 +45,16 @@ Reliability is calculated by comparing the user's performance in Series A (the e
 
 ## Installation
 
-### Flat Store (Recommended)
+### Flathub
 
-<img width='240' alt='Flat Store' src='https://flatstore.ikhlasulov.site/flatstore/images/buttom.svg'/>
-
-The easiest way to install Open RPM is via the Flat Store repository. All required runtimes and dependencies are handled automatically.
-
-**1. Install Flatpak**
-
-First, ensure Flatpak is installed on your system.
-
-**Debian / Ubuntu / Mint**
-```bash
-sudo apt update
-sudo apt install flatpak
-```
-
-**Fedora / RHEL**
-```bash
-sudo dnf install flatpak
-```
-
-**2. Install Open RPM**
-
-Add the repositories and install the application:
+Open RPM is being submitted to Flathub. Once the submission is accepted, install it with:
 
 ```bash
-# Add Flathub repository for runtime
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
-# Add Flat Store repository for application
-flatpak remote-add --if-not-exists flatstore https://flatstore.ikhlasulov.site/flatstore/flatstore.flatpakrepo
-
-# Install Open RPM
-flatpak install flatstore site.ikhlasulov.openrpm
+flatpak install flathub io.github.ikhlasulov_gb.OpenRPM
 ```
+
+Until then, use the manual build below.
 
 ### Manual Flatpak Build
 
@@ -111,7 +86,7 @@ Add the Flathub repository and install the required GNOME platform:
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Install Runtime
-flatpak install flathub org.gnome.Platform/x86_64/49
+flatpak install flathub org.gnome.Platform//51
 
 ```
 
@@ -121,12 +96,15 @@ Once the environment is set up, run the following commands to clone and install 
 
 ```bash
 # Clone the repository
-git clone https://github.com/ikhlasulov-gb/open-rpm-gtk
-cd open-rpm-gtk
+git clone https://github.com/ikhlasulov-gb/openrpm
+cd openrpm
 
 # Build and install locally
-flatpak-builder build build-aux/site.ikhlasulov.openrpm.json --user --install
+flatpak-builder --user --install --force-clean \
+  build build-aux/io.github.ikhlasulov_gb.OpenRPM.local.json
 
+# Run
+flatpak run io.github.ikhlasulov_gb.OpenRPM
 ```
 
 ## Documentation

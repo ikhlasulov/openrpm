@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
 
-        <id>site.ikhlasulov.openrpm.desktop</id>
+        <id>io.github.ikhlasulov_gb.OpenRPM</id>
         <content_rating type="oars-1.1" />
         <metadata_license>CC0-1.0</metadata_license>
-        <project_license>GPL-3.0-only</project_license>
-        <developer id="site.ikhlasulov">
+        <project_license>GPL-3.0-or-later</project_license>
+        <developer id="io.github.ikhlasulov_gb">
                 <name translate="no">Ikhlashulov</name>
         </developer>
         <update_contact>ikhlasulov@users.noreply.github.com</update_contact>
-        <launchable type="desktop-id">site.ikhlasulov.openrpm.desktop</launchable>
+        <launchable type="desktop-id">io.github.ikhlasulov_gb.OpenRPM.desktop</launchable>
         <translation type="gettext">openrpm</translation>
-        <url type="homepage">https://github.com/ikhlasulov-gb/open-rpm-gtk</url>
-        <url type="bugtracker">https://github.com/ikhlasulov-gb/open-rpm-gtk/issues</url>
-        <url type="vcs-browser">https://github.com/ikhlasulov-gb/open-rpm-gtk</url>
-        <url type="translate">https://github.com/ikhlasulov-gb/open-rpm-gtk</url>
-        <url type="donation">https://github.com/ikhlasulov-gb/open-rpm-gtk#support</url>
+        <url type="homepage">https://github.com/ikhlasulov-gb/openrpm</url>
+        <url type="bugtracker">https://github.com/ikhlasulov-gb/openrpm/issues</url>
+        <url type="vcs-browser">https://github.com/ikhlasulov-gb/openrpm</url>
+        <url type="translate">https://github.com/ikhlasulov-gb/openrpm</url>
+        <url type="donation">https://github.com/ikhlasulov-gb/openrpm#support</url>
 
         <name>Open RPM</name>
         <summary>Raven's Progressive Matrices IQ Test</summary>
@@ -42,15 +42,15 @@
         <screenshots>
                 <screenshot type="default">
                         <caption>Intro screen with test instructions</caption>
-                        <image>https://raw.githubusercontent.com/ikhlasulov-gb/open-rpm-gtk/main/screenshots/intro.png</image>
+                        <image>https://raw.githubusercontent.com/ikhlasulov-gb/openrpm/main/screenshots/intro.png</image>
                 </screenshot>
                 <screenshot>
                         <caption>Test in progress with matrix question</caption>
-                        <image>https://raw.githubusercontent.com/ikhlasulov-gb/open-rpm-gtk/main/screenshots/test.png</image>
+                        <image>https://raw.githubusercontent.com/ikhlasulov-gb/openrpm/main/screenshots/test.png</image>
                 </screenshot>
                 <screenshot>
                         <caption>Results with IQ score and analysis</caption>
-                        <image>https://raw.githubusercontent.com/ikhlasulov-gb/open-rpm-gtk/main/screenshots/result.png</image>
+                        <image>https://raw.githubusercontent.com/ikhlasulov-gb/openrpm/main/screenshots/result.png</image>
                 </screenshot>
         </screenshots>
 
@@ -65,6 +65,17 @@
         </recommends>
 
         <releases>
+                <release version="1.1.0" date="2026-11-08">
+                        <description>
+                                <p>Flathub-ready release:</p>
+                                <ul>
+                                        <li>New application ID based on GitHub: io.github.ikhlasulov_gb.OpenRPM</li>
+                                        <li>The About dialog now shows the real application version</li>
+                                        <li>Updated Flatpak manifest and installation instructions</li>
+                                        <li>Various packaging and metadata fixes</li>
+                                </ul>
+                        </description>
+                </release>
                 <release version="1.0.3" date="2026-02-23">
                         <description>
                                 <p>Minor fixes and stability improvements.</p>

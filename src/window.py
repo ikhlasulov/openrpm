@@ -17,7 +17,7 @@ WINDOW_WIDTH_PCT = 0.5
 WINDOW_ASPECT = 0.75
 
 UI_FILES = ['window.ui', 'intro.ui', 'test.ui', 'result.ui', 'shortcuts.ui']
-RESOURCE_BASE = '/site/ikhlasulov/openrpm/'
+RESOURCE_BASE = '/io/github/ikhlasulov_gb/OpenRPM/'
 
 INTRO_SIZES = [
     ('intro_page', 'spacing', 24), ('intro_page', 'margin-top', 48),
@@ -95,8 +95,9 @@ def set_clamp(builder, scale, wide=False):
 
 class OpenRpmApp(Adw.Application):
 
-    def __init__(self, **kwargs):
-        super().__init__(application_id='site.ikhlasulov.openrpm', **kwargs)
+    def __init__(self, version='1.1.0', **kwargs):
+        super().__init__(application_id='io.github.ikhlasulov_gb.OpenRPM', **kwargs)
+        self.version = version
         self.builder = None
         self.win = None
         self.current_monitor = None
@@ -112,7 +113,7 @@ class OpenRpmApp(Adw.Application):
 
     def do_startup(self):
         Adw.Application.do_startup(self)
-        self.settings = Gio.Settings.new('site.ikhlasulov.openrpm')
+        self.settings = Gio.Settings.new('io.github.ikhlasulov_gb.OpenRPM')
         self._register_actions()
 
     def _register_actions(self):
@@ -133,11 +134,11 @@ class OpenRpmApp(Adw.Application):
     def _show_about(self, action, param):
         dialog = Adw.AboutDialog()
         dialog.set_application_name('Open RPM')
-        dialog.set_application_icon('site.ikhlasulov.openrpm')
-        dialog.set_version('1.0.3')
+        dialog.set_application_icon('io.github.ikhlasulov_gb.OpenRPM')
+        dialog.set_version(self.version)
         dialog.set_comments(locales.get_text('about.comments'))
         dialog.set_developer_name('Ikhlasulov')
-        dialog.set_license_type(Gtk.License.GPL_3_0)
+        dialog.set_license_type(Gtk.License.GPL_3_0_LATER)
         dialog.present(self.win)
 
     def _show_shortcuts(self, action, param):
