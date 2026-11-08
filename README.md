@@ -45,18 +45,9 @@ Reliability is calculated by comparing the user's performance in Series A (the e
 
 ## Installation
 
-### Flathub
+Open RPM is installed from source; it is not published in any app store.
 
-Open RPM is being submitted to Flathub. Once the submission is accepted, install it with:
-
-```bash
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub io.github.ikhlasulov_gb.OpenRPM
-```
-
-Until then, use the manual build below.
-
-### Manual Flatpak Build
+### Flatpak Build
 
 To build and install the application from source, you will need Flatpak, Git, and Flatpak-Builder. Choose the commands according to your distribution:
 
