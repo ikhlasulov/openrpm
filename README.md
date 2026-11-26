@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="data/icons/hicolor/scalable/apps/io.github.ikhlasulov_gb.OpenRPM.svg" alt="Favicon" width="128" height="128"/>
+  <img src="data/icons/hicolor/scalable/apps/io.github.ikhlasulov.OpenRPM.svg" alt="Favicon" width="128" height="128"/>
 </p>
 
 # Open RPM
@@ -87,15 +87,15 @@ Once the environment is set up, run the following commands to clone and install 
 
 ```bash
 # Clone the repository
-git clone https://github.com/ikhlasulov-gb/openrpm
+git clone https://github.com/Ikhlasulov/openrpm
 cd openrpm
 
 # Build and install locally
 flatpak-builder --user --install --force-clean \
-  build build-aux/io.github.ikhlasulov_gb.OpenRPM.local.json
+  build build-aux/io.github.ikhlasulov.OpenRPM.local.json
 
 # Run
-flatpak run io.github.ikhlasulov_gb.OpenRPM
+flatpak run io.github.ikhlasulov.OpenRPM
 ```
 
 ## Documentation

@@ -3,8 +3,8 @@ datadir = get_option('prefix') / get_option('datadir')
 
 # Compile data resources (UI files, images)
 data_res = gnome.compile_resources(
-        'io.github.ikhlasulov_gb.OpenRPM.data',
-        'io.github.ikhlasulov_gb.OpenRPM.data.gresource.xml',
+        'io.github.ikhlasulov.OpenRPM.data',
+        'io.github.ikhlasulov.OpenRPM.data.gresource.xml',
         gresource_bundle: true,
         install: true,
         install_dir: pkgdatadir,
@@ -12,8 +12,8 @@ data_res = gnome.compile_resources(
 
 # Desktop file
 desktop_file = i18n.merge_file(
-        input: 'io.github.ikhlasulov_gb.OpenRPM.desktop.in',
-        output: 'io.github.ikhlasulov_gb.OpenRPM.desktop',
+        input: 'io.github.ikhlasulov.OpenRPM.desktop.in',
+        output: 'io.github.ikhlasulov.OpenRPM.desktop',
         type: 'desktop',
         po_dir: '../po',
         install: true,
@@ -27,8 +27,8 @@ endif
 
 # AppStream metadata
 appstream_file = i18n.merge_file(
-        input: 'io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in',
-        output: 'io.github.ikhlasulov_gb.OpenRPM.metainfo.xml',
+        input: 'io.github.ikhlasulov.OpenRPM.metainfo.xml.in',
+        output: 'io.github.ikhlasulov.OpenRPM.metainfo.xml',
         po_dir: '../po',
         install: true,
         install_dir: join_paths(get_option('datadir'), 'metainfo'),
@@ -45,7 +45,7 @@ endif
 
 # GSettings schema
 install_data(
-        'io.github.ikhlasulov_gb.OpenRPM.gschema.xml',
+        'io.github.ikhlasulov.OpenRPM.gschema.xml',
         install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas'),
 )
 

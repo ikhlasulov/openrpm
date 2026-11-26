@@ -7,8 +7,8 @@ data/ui/test.ui
 data/ui/result.ui
 data/ui/shortcuts.ui
 
-data/io.github.ikhlasulov_gb.OpenRPM.desktop.in
-data/io.github.ikhlasulov_gb.OpenRPM.metainfo.xml.in
+data/io.github.ikhlasulov.OpenRPM.desktop.in
+data/io.github.ikhlasulov.OpenRPM.metainfo.xml.in
 
 src/main.py
 src/window.py

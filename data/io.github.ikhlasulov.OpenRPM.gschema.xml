@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="openrpm">
-  <schema id="io.github.ikhlasulov_gb.OpenRPM" path="/io/github/ikhlasulov_gb/OpenRPM/">
+  <schema id="io.github.ikhlasulov.OpenRPM" path="/io/github/ikhlasulov/OpenRPM/">
     <key name="window-width" type="i">
       <default>960</default>
     </key>
