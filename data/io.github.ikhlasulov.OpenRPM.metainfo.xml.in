@@ -11,11 +11,11 @@
         <update_contact>ikhlasulov@users.noreply.github.com</update_contact>
         <launchable type="desktop-id">io.github.ikhlasulov.OpenRPM.desktop</launchable>
         <translation type="gettext">openrpm</translation>
-        <url type="homepage">https://github.com/Ikhlasulov/openrpm</url>
-        <url type="bugtracker">https://github.com/Ikhlasulov/openrpm/issues</url>
-        <url type="vcs-browser">https://github.com/Ikhlasulov/openrpm</url>
-        <url type="translate">https://github.com/Ikhlasulov/openrpm</url>
-        <url type="donation">https://github.com/Ikhlasulov/openrpm#support</url>
+        <url type="homepage">https://github.com/ikhlasulov/openrpm</url>
+        <url type="bugtracker">https://github.com/ikhlasulov/openrpm/issues</url>
+        <url type="vcs-browser">https://github.com/ikhlasulov/openrpm</url>
+        <url type="translate">https://github.com/ikhlasulov/openrpm</url>
+        <url type="donation">https://github.com/ikhlasulov/openrpm#support</url>
 
         <name>Open RPM</name>
         <summary>Raven's Progressive Matrices IQ Test</summary>
@@ -42,15 +42,15 @@
         <screenshots>
                 <screenshot type="default">
                         <caption>Intro screen with test instructions</caption>
-                        <image>https://raw.githubusercontent.com/Ikhlasulov/openrpm/main/screenshots/intro.png</image>
+                        <image>https://raw.githubusercontent.com/ikhlasulov/openrpm/main/screenshots/intro.png</image>
                 </screenshot>
                 <screenshot>
                         <caption>Test in progress with matrix question</caption>
-                        <image>https://raw.githubusercontent.com/Ikhlasulov/openrpm/main/screenshots/test.png</image>
+                        <image>https://raw.githubusercontent.com/ikhlasulov/openrpm/main/screenshots/test.png</image>
                 </screenshot>
                 <screenshot>
                         <caption>Results with IQ score and analysis</caption>
-                        <image>https://raw.githubusercontent.com/Ikhlasulov/openrpm/main/screenshots/result.png</image>
+                        <image>https://raw.githubusercontent.com/ikhlasulov/openrpm/main/screenshots/result.png</image>
                 </screenshot>
         </screenshots>
 

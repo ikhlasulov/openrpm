@@ -87,7 +87,7 @@ Once the environment is set up, run the following commands to clone and install 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Ikhlasulov/openrpm
+git clone https://github.com/ikhlasulov/openrpm
 cd openrpm
 
 # Build and install locally
